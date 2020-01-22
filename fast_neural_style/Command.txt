@@ -1,0 +1,5 @@
+Stylize:
+python neural_style/neural_style.py eval --content-image .\images\content-images\dipu.jpg --model .\saved_models\mosaic.pth --output-image .\images\output-images\test_1.jpg --cuda 1
+
+Train Model:
+python neural_style/neural_style.py train --dataset </path/to/train-dataset> --style-image </path/to/style/image> --save-model-dir </path/to/save-model/folder> --epochs 2 --cuda 1
